@@ -23,7 +23,6 @@ jobs:
 
       - uses: ./
         with:
-          name: "ubuntu failed tests"
           access-token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: ./
@@ -39,5 +38,4 @@ jobs:
 
       - uses: ./
         with:
-          name: "macos failed tests"
           access-token: ${{ secrets.GITHUB_TOKEN }}
